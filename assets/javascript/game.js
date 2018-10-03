@@ -16,6 +16,7 @@ var guessedLetters = [];
 document.onkeydown = function(event) {
     var userGuess = event.key;
 
+    //When User guesses correctly
     if(userGuess === computerChoice){
         document.getElementById("wins").innerHTML = wins++;
         guessedLetters = [];
@@ -29,7 +30,7 @@ document.onkeydown = function(event) {
         guessedLetters.push(userGuess);
         document.getElementById("guessedLetters").innerHTML = guessedLetters;
     }
-
+    //When user guesses incorrectly
     if (guessesRemaining <= 0) {
         document.getElementById("losses").innerHTML = losses++;
         guessesRemaining = 10;
