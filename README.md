@@ -1,6 +1,4 @@
-# Psychic-Game
-
-Psychic Game (https://aviolan.github.io/Psychic-Game/)
+# Psychic-Game (https://aviolan.github.io/Psychic-Game/)
 
 Game is built using HTML, CSS, and Javascript
 
